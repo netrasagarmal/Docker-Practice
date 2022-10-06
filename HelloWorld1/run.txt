@@ -1,0 +1,19 @@
+Steps to run Dockerfile:
+
+1) docker build .
+- You will get docker image id, copy this id.
+
+2) 
+	docker run <image_id>
+	eg: docker run x1y1yyysyencjbscdbbj23bb
+
+	OR
+
+Rename id with name of our choice and run:
+	docker run --name <image_name_of_our_choice> <image_id_while_building>
+	eg: docker run --name test x1y1yyysyencjbscdbbj23bb
+
+---------------------------
+To remove image:
+
+docker rm test
